@@ -1,6 +1,8 @@
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
+#include <cctype>
+#include <cassert>
 
 #if       _HAS_CSTDINT_
 #include <cstdint>
