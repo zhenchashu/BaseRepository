@@ -30,7 +30,7 @@ class CMFCMainDlg : public CDialogEx
 {
   // Construction
 public:
-  CMFCMainDlg(CWnd* pParent = NULL);	// standard constructor
+  CMFCMainDlg(CWnd* pParent = NULL);  // standard constructor
 
   // Dialog Data
 #ifdef AFX_DESIGN_TIME
@@ -38,7 +38,7 @@ public:
 #endif
 
 protected:
-  virtual void DoDataExchange(CDataExchange* pDX);	// DDX/DDV support
+  virtual void DoDataExchange(CDataExchange* pDX);  // DDX/DDV support
 
   // Implementation
 protected:

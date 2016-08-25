@@ -88,9 +88,9 @@ END_MESSAGE_MAP()
  *****************************************************************************/
 
 CMFCMainDlg::CMFCMainDlg(CWnd* pParent /*=NULL*/)
-	: CDialogEx(IDD_MFCMAINAPP_DIALOG, pParent)
+  : CDialogEx(IDD_MFCMAINAPP_DIALOG, pParent)
 {
-	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
+  m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
 }
 
 /*****************************************************************************
@@ -104,7 +104,7 @@ CMFCMainDlg::CMFCMainDlg(CWnd* pParent /*=NULL*/)
 
 void CMFCMainDlg::DoDataExchange(CDataExchange* pDX)
 {
-	CDialogEx::DoDataExchange(pDX);
+  CDialogEx::DoDataExchange(pDX);
 }
 
 // CMFCMainDlg message handlers
@@ -145,8 +145,8 @@ BOOL CMFCMainDlg::OnInitDialog()
 
   // Set the icon for this dialog.   The framework does this automatically
   // when the application's main window is not a dialog
-  SetIcon(m_hIcon, TRUE);			// Set big icon
-  SetIcon(m_hIcon, FALSE);		// Set small icon
+  SetIcon(m_hIcon, TRUE);     // Set big icon
+  SetIcon(m_hIcon, FALSE);    // Set small icon
 
   // TODO: Add extra initialization here
 
