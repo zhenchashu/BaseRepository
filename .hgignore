@@ -1,2 +1,3 @@
 syntax: glob
 build/
+source/gui/MFCDlgMainApp/MFCMainApp.aps
