@@ -1,6 +1,9 @@
 #ifndef   BASEFRAMEWORK_THREADING_WRAPPER_H_
 #define   BASEFRAMEWORK_THREADING_WRAPPER_H_
 
+namespace BaseFramework
+{
+
 #ifdef _WIN32
 typedef HANDLE    ThreadHandle;
 #else  //  POSIX
@@ -71,5 +74,7 @@ public:
 private:
   ThreadHandle m_thread;
 };
+
+}
 
 #endif // BASEFRAMEWORK_THREADING_WRAPPER_H_

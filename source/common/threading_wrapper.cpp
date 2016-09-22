@@ -1,6 +1,8 @@
 #include "common.h"
 #include "threading_wrapper.h"
 
+using namespace BaseFramework;
+
 #define STACK_ALIGN(func, ...) func(__VA_ARGS__)
 
 Lock::Lock()
